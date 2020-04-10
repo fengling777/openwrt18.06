@@ -51,8 +51,8 @@ jobs:
           df -h
       - name: 自定义插件
         run: |
-           rm    -rfv  package/lean/autocore
-           rm    -rfv  package/lean/luci-app-adbyby-plus
+           #rm    -rfv  package/lean/autocore
+           #rm    -rfv  package/lean/luci-app-adbyby-plus
            cd package/diy
            tar   xvJf  luci-app-docker.tar.xz
            tar   xvJf  luci-app-koolddns.tar.xz
